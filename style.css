@@ -7,7 +7,8 @@
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(45deg, #08001f, #30197d);
+  /* background: linear-gradient(45deg, #08001f, #30197d); */
+  background: linear-gradient(135deg, #153677, #4e085f);
   color: #fff;
   position: relative;
 }
@@ -27,6 +28,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* border-radius: 50px; */
 }
 
 .container::before {
@@ -59,6 +61,7 @@
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(40px);
+  border-radius: 5px;
 }
 .clock span {
   font-size: 80px;
